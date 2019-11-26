@@ -6,7 +6,76 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
-	<h1>Bienvenue sur la page d'accueil de Prostages</h1>
+	<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12"><h1>Prostages</h1></div>
+	</div>
+	<div class="row">
+		<div class="col-md-12"><h2>Stages</h2></div>
+	</div>
+	<div class="row">
+		<div class="col-md-9">
+			<table class="table">
+				<thead>
+					<tr>
+						<th>Intitulé</th>
+						<th>Entreprise</th>
+						<th>Formation</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>
+							Developpement d'une application
+						</td>
+						<td>
+							ALTRAD
+						</td>
+						<td>
+							DUT Info, DUT GIM
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Developpement d'un site web
+						</td>
+						<td>
+							Labeyrie
+						</td>
+						<td>
+							DUT GIM
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Gestion d'une base de données
+						</td>
+						<td>
+							Kiloutou
+						</td>
+						<td>
+							DUT Info
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="col-md-3">
+			<div class="card">
+				<h5 class="card-header">Trier :</h5>
+				<div class="card-body">
+					<p class="card-text"><a href="{{path('prostage-formations')}}"> Par formation </a></p>
+				</div>
+				<div class="card-footer"><a href="{{path('prostage-entreprises')}}"> Par entreprise </a></div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+		</div>
+	</div>
+	</div>
+	<!--<h1>Bienvenue sur la page d'accueil de Prostages</h1>
 
 	<p> 
 		Vous trouverez ci-dessous l'accès aux formations de l'IUT ainsi qu'au entreprises qui proposent un stage
@@ -21,9 +90,10 @@
 	</p>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
 </body>
 </html>
+
 
 
 
